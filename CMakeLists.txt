@@ -7,7 +7,8 @@ enable_testing()
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED on)
-set(CMAKE_CXX_FLAGS "-g -Wall -Wextra -Wpedantic")
+set(CMAKE_BUILD_TYPE Debug)
+set(CMAKE_CXX_FLAGS "-Wall -Wextra -Wpedantic")
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 file(GLOB SOURCES
