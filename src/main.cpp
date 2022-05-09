@@ -1,8 +1,6 @@
-#include <bits/stdc++.h>
-
-using namespace std;
+#include <iostream>
 
 int main()
 {
-  cout << "Cmake C++ Quick Project" << endl;
+  std::cout << "Cmake C++ Quick Project" << std::endl;
 }
